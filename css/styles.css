@@ -645,7 +645,7 @@ img {
   overflow: auto;
   background-color: var(--background-color-blue);
   transform: translateY(100%);
-  padding: 63px, 24px;
+  padding: 63px 24px;
 }
 .overlay-text {
   font-size: 18px;
