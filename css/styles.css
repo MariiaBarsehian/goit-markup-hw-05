@@ -136,6 +136,11 @@ img {
   padding: 32px 0px;
   text-decoration: none;
   color: var(--text-color-main);
+
+  transition-property: color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-delay: 0ms;
 }
 .menu-link:hover,
 .menu-link:focus {
@@ -164,6 +169,11 @@ img {
   justify-content: center;
   align-items: center;
   padding: 32px 0px;
+
+  transition-property: color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-delay: 0ms;
 }
 .contact-link:hover,
 .contact-link:focus {
@@ -181,6 +191,11 @@ img {
 }
 .contact-icon {
   fill: var(--text-color-grey);
+
+  transition-property: fill;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-delay: 0ms;
 }
 
 .contact-link:hover .contact-icon,
@@ -229,6 +244,11 @@ img {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   border: none;
+
+  transition-property: background-color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-delay: 0ms;
 }
 .order-btm:hover,
 .order-btm:focus {
@@ -248,6 +268,11 @@ img {
   color: var(--text-color-main);
   border: none;
   cursor: pointer;
+
+  transition-property: color background-color box-shadow;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-delay: 0ms;
 }
 
 .type-selection-btm:hover,
@@ -287,13 +312,6 @@ img {
   justify-content: center;
   align-items: center;
 }
-
-.clients-list-link:hover,
-.clients-list-link:focus {
-  fill: var(--text-color-hover);
-  border-color: var(--text-color-hover);
-}
-
 .features-section-list-title {
   font-weight: 700;
   font-size: 14px;
@@ -310,6 +328,7 @@ img {
   letter-spacing: 0.03em;
   color: var(--text-color-grey);
 }
+
 /* ================works================*/
 
 .what-we-do-section {
@@ -431,6 +450,11 @@ img {
   align-items: center;
   fill: #afb1b8;
   border-radius: 50%;
+
+  transition-property: background-color fill;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-delay: 0ms;
 }
 .team-social-link:hover,
 .team-social-link:focus {
@@ -472,6 +496,11 @@ img {
   border: 1px solid #afb1b8;
   border-radius: 4px;
   fill: #afb1b8;
+
+  transition-property: border-color fill;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-delay: 0ms;
 }
 .clients-list-link:hover,
 .clients-list-link:focus {
@@ -564,6 +593,11 @@ img {
   fill: var(--text-color-white);
   border-radius: 50%;
   background-color: rgba(255, 255, 255, 0.1);
+
+  transition-property: border-color fill;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-delay: 0ms;
 }
 .join-us-link:hover,
 .join-us-link:focus {
@@ -601,6 +635,11 @@ img {
   margin-top: 30px;
   margin-left: 30px;
   flex-basis: calc((100% - 90px) / 3);
+
+  transition-property: box-shadow;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-delay: 0ms;
 }
 .works-example-item:hover,
 .works-example-item:focus {
