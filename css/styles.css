@@ -655,14 +655,14 @@ img {
 }
 .overlay {
   position: absolute;
-  top: 0px;
+  top: 100%;
   left: 0px;
   height: 100%;
   width: 100%;
   color: #ffffff;
   overflow: auto;
   background-color: rgba(33, 150, 243, 0.9);
-  transform: translateY(100%);
+  transform: translateY(0%);
   padding: 63px 24px;
 }
 .overlay-text {
@@ -672,7 +672,7 @@ img {
 }
 .works-example-link-box:hover .overlay,
 .works-example-link-box:focus .overlay {
-  transform: translateY(0%);
+  transform: translateY(-100%);
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .works-example-card-container {
@@ -681,6 +681,7 @@ img {
   border-right: 1px solid #eeeeee;
   border-left: 1px solid #eeeeee;
   border-bottom: 1px solid #eeeeee;
+  text-decoration: none;
 }
 
 .works-example-name {
