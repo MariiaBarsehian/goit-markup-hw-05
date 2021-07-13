@@ -670,6 +670,9 @@ img {
   line-height: 1.56;
   text-align: left;
 }
+.works-example-link-box {
+  text-decoration: none;
+}
 .works-example-link-box:hover .overlay,
 .works-example-link-box:focus .overlay {
   transform: translateY(-100%);
